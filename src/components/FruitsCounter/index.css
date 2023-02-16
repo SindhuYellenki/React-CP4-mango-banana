@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: #ffd569;
+  padding: 30px;
+  height: 100vh;
+}
+.content-container {
+  padding: 40px;
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: black;
+}
+.count {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #ffd569;
+}
+.images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.picture {
+  height: 200px;
+  width: 200px;
+}
